@@ -25,14 +25,14 @@ div {
     margin: 3px;
 }
 
-#seven, #eight, #nine, #plus {
+#first, #second, #third, #fourth {
     width: 60px;
     height: 60px;
     font-size: 30px;
     border-radius: 8px;
 }
 
-#seven, #equal {
+#first, #equal {
     margin: 3px;
 }
 

@@ -16,27 +16,27 @@
         <form name="Calculator">
             <input id="input-display" name="display" placeholder="0">
             <br>
-            <input id="seven" type="button"  value="7" onclick="document.Calculator.display.value +='7'">
-            <input id="eight" type="button" value="8" onclick="document.Calculator.display.value +='8'">
-            <input id="nine" type="button" value="9" onclick="document.Calculator.display.value +='9'">
-            <input id="plus" type="button" value="+" onclick="btnplus()">
+            <input id="first" type="button"  value="7" onclick="insert(7)">
+            <input id="second" type="button" value="8" onclick="insert(8)">
+            <input id="third" type="button" value="9" onclick="insert(9)">
+            <input id="fourth" type="button" value="+" onclick="btnplus()">
             <br>
-            <input id="seven" type="button"  value="4" onclick="document.Calculator.display.value +='4'">
-            <input id="eight" type="button" value="5" onclick="document.Calculator.display.value +='5'">
-            <input id="nine" type="button" value="6" onclick="document.Calculator.display.value +='6'">
-            <input id="plus" type="button" value="-" onclick="btnminus()">
+            <input id="first" type="button"  value="4" onclick="insert(4)">
+            <input id="second" type="button" value="5" onclick="insert(5)">
+            <input id="third" type="button" value="6" onclick="insert(6)">
+            <input id="fourth" type="button" value="-" onclick="btnminus()">
             <br>
-            <input id="seven" type="button"  value="1" onclick="document.Calculator.display.value +='1'">
-            <input id="eight" type="button" value="2" onclick="document.Calculator.display.value +='2'">
-            <input id="nine" type="button" value="3" onclick="document.Calculator.display.value +='3'">
-            <input id="plus" type="button" value="*" onclick="btnmult()">
+            <input id="first" type="button"  value="1" onclick="insert(1)">
+            <input id="second" type="button" value="2" onclick="insert(2)">
+            <input id="third" type="button" value="3" onclick="insert(3)">
+            <input id="fourth" type="button" value="*" onclick="btnmult()">
             <br>
-            <input id="seven" type="button"  value="0" onclick="document.Calculator.display.value +='0'">
-            <input id="eight" type="button" value="%" onclick="btnMod()">
-            <input id="nine" type="button" value="." onclick="btndot()">
-            <input id="plus" type="button" value="/" onclick="btndiv()">
+            <input id="first" type="button"  value="0" onclick="insert(0)">
+            <input id="second" type="button" value="%" onclick="btnMod()">
+            <input id="third" type="button" value="." onclick="btndot()">
+            <input id="fourth" type="button" value="/" onclick="btndiv()">
             <br>
-            <input id="equal" type="button"  value="=" onclick="document.Calculator.display.value = eval (document.Calculator.display.value)">
+            <input id="equal" type="button"  value="=" onclick="btnequal()">
             <input id="clear" type="button" value="C" onclick="btnclear()">
         </form>
     </div>

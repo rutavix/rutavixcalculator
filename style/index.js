@@ -1,3 +1,7 @@
+function insert(num) {
+    document.Calculator.display.value += num;
+}
+
 function btnplus() {
     document.Calculator.display.value +="+";
     document.Calculator.display.style.textAlign = "right";
@@ -31,4 +35,8 @@ function btndiv() {
 function btnclear() {
     document.Calculator.display.value ="";
     document.Calculator.display.style.textAlign = "right";
+}
+
+function btnequal() {
+    document.Calculator.display.value = eval (document.Calculator.display.value)
 }
